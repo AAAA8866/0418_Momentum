@@ -22,8 +22,9 @@ background.js + quotes.js
  - Math.random, Math.floor 기능을 사용한 행렬 순번 randomize
 
 clock.js
- - Date 객체를 사용하여 날짜, 시간 관련 정보 표현
- - setInterval, setTimeout: 일정주기, 일정 시간 이후로 실행되는 타이머 설정
+ - Date 객체를 통해 날짜, 시간 정보 표현
+ - setInterval, setTimeout: 일정주기, 일정 시간 이후로 실행되는 타이머 설정 (setInterval:1000으로 1초 설정)
+ - padStart, padEnd로 시간 형태 및 문구 추가 설정 
 
 todo.js
  - 유저로부터 submit된 value를 localstorage에 string화한 객체(id와 todo)배열로 저장
